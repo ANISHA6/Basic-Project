@@ -1,0 +1,107 @@
+button {
+    width: 200px;
+    height: 50px;
+   /* display block means,every button will display in diffrent line*/
+    display: block;
+   /* margin is use to add space around the diff elements*/
+    margin: 30px auto;
+
+   font-family: monospace;
+    font-size: 1.5rem;
+    /*cursor will show as a hand*/
+    cursor: pointer;
+}
+
+button:hover {
+   /* box shadow means color will show outside of the button when you hover over*/
+    box-shadow: 0px 0px 30px 2px grey;
+}
+/*For outer div*/
+#block {
+    /*Padding is distance between two html elements*/
+    padding: 80px;
+    /*width and height of html elements*/
+    width: 200px;
+    height: 200px;
+    /*background color of html elements*/
+    background-color: blueviolet;
+   /*border radius is use to tranform html element in circle shape*/
+    border-radius: 50%;
+    margin: 100px auto;
+   /* border:5px solid blue;*/
+}
+
+
+#square {
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+   /* background-color: red;*/
+}
+
+#rectangle {
+    width: 100px;
+    height: 50px;
+    margin-top: 25px;
+    background-color: aliceblue;
+}
+
+#circle {
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    border-radius: 50%
+}
+
+#oval {
+    width: 100px;
+    height: 50px;
+    margin-top: 25px;
+    background-color: aliceblue;
+    border-radius: 100px / 50px;
+}
+
+#triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid aliceblue;
+}
+
+#triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid aliceblue;
+}
+
+#triangle-topleft {
+    width: 0;
+    height: 0;
+    border-top: 100px solid aliceblue;
+    border-right: 100px solid transparent;
+}
+
+#triangle-bottomleft {
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid aliceblue;
+    border-right: 100px solid transparent;
+}
+
+#triangle-bottomright {
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid aliceblue;
+    border-left: 100px solid transparent;
+}
+
+#triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-left: 100px solid aliceblue;
+    border-bottom: 50px solid transparent;
+}
