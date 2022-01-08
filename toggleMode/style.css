@@ -1,0 +1,41 @@
+#toggle {
+    background-color: white;
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid black;
+   /* 50px for vertical, and auto for horizontal, i.e for left and right*/
+   /*By assiging auto to the left and right margins of an element, they take up the available
+   horizontal space in the element's container equally*/
+    margin: 50px auto;
+    cursor: pointer;
+}
+
+#circle {
+    width: 38px;
+    height: 38px;
+    background-color: black;
+    /*use 50px to make div ,a complete circle*/
+    border-radius: 50%;
+    margin-top: 1px;
+   /* inner div i.e circle will take time 1s to move left to right side*/
+    transition-duration: 1s;
+    margin-left: 1px;
+}
+
+h1 {
+    font-size: 5rem;
+    margin: 100px auto;
+   /* for aligning the text to the center*/
+    text-align: center;
+}
+
+
+/*Below both classes present in javascript file*/
+.color-white {
+    color: white;
+}
+
+.bck-color-black {
+    background-color: black;
+}
